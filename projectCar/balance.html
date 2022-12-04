@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Баланс</title>
+</head>
+<body>
+    <section class="container">
+        <header>
+            <div class="header-container">
+                <div class="logo">
+                    <img src="./images/logo.png" alt="logo">
+                </div>
+                <nav class="nav-list">
+                    <ul>
+                        <li><a href="./index.html">Главная</a></li>
+                        <li><a>Pro-Запрос</a></li>
+                        <li><a>Гараж</a></li>
+                        <li><a href="./contact.html">Контакты</a></li>
+                        <li><a>Заказы</a></li>
+                    </ul>
+                </nav>
+                <div class="nav-min-cont">
+                    <div class="money">
+                        <img src="./images/Vector (4).png" alt="vector">
+                        <p class="money">100000р.</p>
+                    </div>
+                    </div>
+                    <div class="nav-min-cont2">
+                        <div class="min-user-block">
+                            <img src="./images/Group.png" alt="group">
+                        </div>
+                        <div class="min-login-block">
+                            <a class="login-link" href="#">Войти</a>
+                        </div>
+                </div>
+                <div id="b-menu" class="burger-menu">
+                    <img id="nav-bars" src="./images/NAV.svg" alt="bars">
+                </div>
+            </div>
+        </header>
+
+        <!-- balance -->
+
+        <main>
+            <div class="balance-container">
+                <h2 class="balance-logo">Баланс<span class="bal-money">5200р.</span></h2>
+                <div class="balance-block">
+
+                </div>
+            </div>
+            <div class="operation">
+                <p class="operation-history">История операций</p>
+                    <div class="div-row">
+                        <div class="block-1">Дата с</div>
+                        <div class="block-2">01.06</div>
+                        <div class="block-3">Дата по</div>
+                        <div class="block-4">18.06</div>
+                        <div class="operation-div">Назначение оперции</div>
+                        <div><select name="" id="select-row" class="select-row">
+                            <option value="">Все</option>
+                        </select></div>
+                        <div class="operation-div">Наименование операции</div>
+                        <div><select name="" id="select-row" class="select-row">
+                            <option value="">Все</option>
+                        </select></div>
+                        <div class="block-5"></div>
+                    </div>
+                <div class="div-row-two">
+                        <div class="empty-1">ID</div>
+                        <div class="empty-2">Дата</div>
+                        <div class="empty-div"></div>
+                        <div class="empty-div-two"></div>
+                        <div class="empty-div-tree">Приход</div>
+                        <div class="empty-3">Расход</div>
+                        <div class="empty-4">Наименование</div>
+                        <div class="empty-div-four"></div>
+                </div>
+                <div class="history-btn">
+                    <div class="double-btn">
+                        <button class="h-btn">Введите нужно значение</button>
+                        <button class="h-two-btn">Пополнить</button>
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+    
+    <script src="balance.js"></script>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-logo-text">
+                    <img src="./images/logo.png" alt="logo">
+                    <p class="foter-text">
+                        2020 © Mannex Все права защищены<br>Публичная оферта
+                    </p>
+                </div>
+                <ul class="footer-ul">
+                    <h4 class="ul-head">Основное</h4>
+                    <li><a href="./index.html" target="_blank">Главная</a></li>
+                    <li><a href="">О компании</a></li>
+                    <li><a href="">Pro-Запрос</a></li>
+                    <li><a href="">Гараж</a></li>
+                    <li><a href="./contact.html" target="_blank">Контакты</a></li>
+                    <li><a href="">Заказы</a></li>
+                </ul>
+                <ul class="footer-ul">
+                    <h4 class="ul-head">Аккаунт</h4>
+                    <li><a href="./basket.html" target="_blank">Корзина</a></li>
+                    <li><a href="./balance.html" target="_blank">Баланс</a></li>
+                    <li><a href="">Мои заказы</a></li>
+                    <li><a href="">Запрос продавцу</a></li>
+                    <li><a href="">Сравнение</a></li>
+                </ul>
+                <div class="contacts">
+                    <h4 class="ul-head">Контакты</h4>
+                    <div class="phone-email">
+                        <p class="envelope-text"><i class="fa-solid fa-envelope"></i>Главная</p>
+                        <p class="phone-text"><i class="fa-solid fa-phone"></i> 8 900 203 8083
+                            8 912 294 5345</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
